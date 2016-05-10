@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "nativescript-materialdropdownlist",
+      "/home/deepak/git/partyzing"
+    ]
+  ],
+  "_from": "nativescript-materialdropdownlist@latest",
+  "_id": "nativescript-materialdropdownlist@1.0.14",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nativescript-materialdropdownlist",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-materialdropdownlist-1.0.14.tgz_1462840689921_0.3734088500496"
+  },
+  "_npmUser": {
+    "email": "bradley@bradleygore.com",
+    "name": "bradleygore"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "nativescript-materialdropdownlist",
+    "raw": "nativescript-materialdropdownlist",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-materialdropdownlist/-/nativescript-materialdropdownlist-1.0.14.tgz",
+  "_shasum": "9a4500d025f3b24e7d65f8f64934eeec3026a381",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-materialdropdownlist",
+  "_where": "/home/deepak/git/partyzing",
+  "author": {
+    "email": "youremail@yourdomain.com",
+    "name": "Bradley Gore"
+  },
+  "bugs": {
+    "url": "https://github.com/bradleygore/nativescript-materialdropdownlist/issues"
+  },
+  "dependencies": {},
+  "description": "Material-Inspired Dropdown List XML widget for NativeScript Apps",
+  "devDependencies": {
+    "typescript": "^1.8.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9a4500d025f3b24e7d65f8f64934eeec3026a381",
+    "tarball": "https://registry.npmjs.org/nativescript-materialdropdownlist/-/nativescript-materialdropdownlist-1.0.14.tgz"
+  },
+  "gitHead": "fd29e96cc0c758d3bf6619c2b7416a35c7cb7dca",
+  "homepage": "https://github.com/bradleygore/nativescript-materialdropdownlist",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "Material",
+    "Dropdown",
+    "List",
+    "Bradley Gore"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/bradleygore/nativescript-materialdropdownlist/blob/master/LICENSE"
+  },
+  "main": "materialDropdownList.js",
+  "maintainers": [
+    {
+      "email": "bradley@bradleygore.com",
+      "name": "bradleygore"
+    }
+  ],
+  "name": "nativescript-materialdropdownlist",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleygore/nativescript-materialdropdownlist.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-materialdropdownlist && tns plugin add .. && tns install",
+    "setup": "cd demo && npm install && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
+  },
+  "version": "1.0.14"
+}

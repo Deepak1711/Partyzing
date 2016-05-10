@@ -1,0 +1,12 @@
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:MDL="nativescript-materialdropdownlist">
+	<StackLayout>
+		<Label class="head" text="Party Details" />
+		<TextField id="title" hint="Title" autocorrect="false" />
+		<TextField id="first_name" hint="Description" autocorrect="false" />
+          <MDL:MaterialDropdownList col="1"
+                itemsSeparatorColor="transparent" itemsRowHeight="30"
+                items="{{ [1,2,3,4,5] }}" >
+            </MDL:MaterialDropdownList>
+         <Button text="Submit" tap="OnSubmit"/>
+	</StackLayout>
+</Page>

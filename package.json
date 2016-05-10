@@ -1,0 +1,12 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.partyzing",
+    "tns-android": {
+      "version": "1.7.1"
+    }
+  },
+  "dependencies": {
+    "nativescript-textinputlayout": "^0.1.2",
+    "tns-core-modules": "2.0.0"
+  }
+}
